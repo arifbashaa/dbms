@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dropdown Menu</title>
+    <style>
+      /* Style for dropdown */
+      body{
+			background: linear-gradient(to left, #1a7279, #19191a, #4f8586); 
+
+      }
+      
+      .tb
+		{  
+			text-align: center;
+            
+			font-style: italic;
+			font-size: 40px;
+			font-family: 'Calistoga', cursive;
+			text-transform: uppercase;
+			font-weight: 900;
+			text-shadow: #367c77;
+            text-shadow: 11cap;
+			letter-spacing: 3px;
+			position: absolute;
+
+			top: 0%;
+			left:30%;
+			/*transform: translate(-50%, -50%);*/
+
+			margin: 0;
+			background: url(https://cdn.dribbble.com/users/187497/screenshots/1725519/media/a10a94cfc2fc7128d41dc1286f3f1ffc.gif) 50% 50%;
+			background-size: cover;
+
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+		}
+      
+      
+      /* Style for dropdown links */
+      .dropdown-content a {
+        color: rgb(214, 197, 197);
+        padding: 12px 16px;
+        font-size: 19px;
+        text-align: center ;
+        text-decoration: none;
+        display: block;
+
+      }
+      
+      /* Style for dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color:rgb(88, 110, 129);
+        box-shadow:  -20px 20px 60px rgb(99, 66, 66), 20px -20px 60px rgb(99, 113, 122);
+      }
+      
+      /* Show dropdown content when hovering over dropdown */
+      .dropdown:hover .dropdown-content {
+        display: block;
+        
+      }
+      .rat:hover{
+        background-color: transparent;
+        box-shadow:  -20px 20px 60px rgb(99, 66, 66), 20px -20px 60px rgb(99, 113, 122);;
+        border-color: #19191a;
+        border-width: 1ch;
+      }
+      
+      .rat{
+        background-color: rgb(58, 102, 102);
+        -webkit-text-fill-color: #978989;
+    
+        padding:12px 16px;
+        padding-left: auto;
+        padding-right:auto;
+        font-size: 35px;
+        
+     
+        position:top center;
+        border-radius: 1pc; 
+    }
+    .d{
+        -webkit-text-fill-color:transparent;
+    }
+    
+    
+      
+    
+      
+    </style>
+  </head>
+  <body>
+ 
+   <a href="frame3.html" target="right"><h1 class="tb" >  MENU</h1></a>
+ <center>   <p class="d"> mmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+    <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+    <p class =d>mmmmmmmm</p>
+    <span class="rat" style="font-size: 23px;" >INFORMATION MODEL</span>
+  
+    <div class="dropdown-content">
+        <a href="abstract.html" target="right">ABSTRACT</a>
+        <a href="erdb.html" target="right">ER MODELS</a>
+        <a href="relationmodel.html"target="right">RELATION MODEL</a>
+        <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+      
+</div>
+
+
+
+    </center>
+    <CENTER>
+    
+    <div class="dropdown">
+      <span class="rat">DDL</span>
+      <div class="dropdown-content">
+        <a href="create.html" target="right">CREATE</a>
+        <a href="alter.html"target="right">ALTER</a>
+        <a href="drop.html"target="right">DROP</a>
+        <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+</div>
+    </div>
+    </center>
+    <center>   <div class="dropdown">
+        <span class="rat">DML</span>
+        <div class="dropdown-content">
+          <a href="inserrt.html"target="right">INSERT</a>
+          <a href="update.html"target="right">UPDATE</a>
+          <a href="delete.html"target="right">DELETE</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat">TCL</span>
+        <div class="dropdown-content">
+          <a href="commit.html"target="right">COMMIT</a>
+          <a href="savepoint.html"target="right">SAVE POINT</a>
+          <a href="role.html"target="right">ROLLBACK</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat"style="font-size: 23px;">INTEFGRETY CONSTRAINTS</span>
+        <div class="dropdown-content">
+          <a href="null.html"target="right">NULL</a>
+          <a href="notnull.html"target="right">NOT NULL</a>
+          <a href="unique.html"target="right">UNIQUE</a>
+          <a href="enum.html"target="right">ENUM</a>
+          <a href="check.html"target="right">CHECK</a>
+          <a href="default.html"target="right">DEFAULT</a>
+          <a href="foriegn.html"target="right">FORIEGN KEY</a>
+          <a href="where.html"target="right">WHERE</a>
+          <a href="like.html"target="right">LIKE</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+        
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat"> AGGREGATE</span>
+        <div class="dropdown-content">
+          <a href="coount.html"target="right">COUNT</a>
+          <a href="sum.html"target="right">SUM</a>
+          <a href="aveage.html"target="right">AVERAGE</a>
+          <a href="max.html"target="right">MAX</a>
+          <a href="min.html"target="right">MIN</a>
+          <a href="distinct.html"target="right">DISTINCT</a>
+          <a href="alies.html"target="right">ALIES</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat">JOINS</span>
+        <div class="dropdown-content">
+          <a href="sjoin.html" target="right">SELF JOIN</a>
+          <a href="cjoint.html"target="right">CROSS JOIN</a>
+          <a href="ijoint.html"target="right">INNER JOIN </a>
+          <a href="leftjoint.html"target="right">LEFT JOIN </a>
+          <a href="rightjoint.html"target="right">RIGHT JOIN </a>
+          <a href="fj.html"target="right">FULL OUTER JOIN </a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat" style="font-size: 29px;">SET OPERATIONS</span>
+        <div class="dropdown-content">
+          <a href="unoin.html"target="right">UNOIN</a>
+          
+          <a href="unoinall.html"target="right">UNOIN ALL</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+        
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat">SUB QUERIES</span>
+        <div class="dropdown-content">
+          <a href="inn.html"target="right">IN </a>
+        
+          <a href="notinn.html"target="right">NOT IN </a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat"style="font-size: 25px;">SET COMPERISIONS</span>
+        <div class="dropdown-content">
+          <a href="any.html"target="right">ANY</a>
+        
+          <a href="all.html"target="right">ALL </a>
+          <a href="some.html"target="right">SOME </a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+        
+  </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat">SUBQUERIES</span>
+        <div class="dropdown-content">
+          <a href="any.html"target="right">ANY</a>
+        
+          <a href="coreleted.html"target="right">CORELATED </a>
+          <a href="non-co.html"target="right">NON-COREREALTED </a>
+          
+          <a href="exists.html"target="right">EXISTS</a>
+          <a href="grouo.html"target="right">GROUP BY </a>
+          <a href="having.html"target="right">HAVING</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+        </div>
+      </div>
+      </center>
+      <center>   <div class="dropdown">
+        <span class="rat" style="font-size: 23px;">REALTION ALGERA</span>
+        <div class="dropdown-content">
+          <a href="selecton.html"target="right">SELECTION</a>
+        
+          <a href="projrction.html"target="right">PROJUCTION</a>
+          <a href=""target="right">RENAME </a>
+
+           <a href="setop.html"target="right">SET OPERATIONS</a>
+           <a href="joinns.html"target="right">JOINS </a>
+           <a href="division.html"target="right">DIVISION </a>
+           <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+
+      <center>   <div class="dropdown">
+        <span class="rat">VIEWS</span>
+        <div class="dropdown-content">
+          <a href="1view.html"target="right">CREATE VIEW FROM ONE</a>
+        
+          <a href="2view.html"target="right">CREATE VIEW FEOM MANY</a>
+          <a href="drropview.html"target="right">DROP VIEW</a>
+          <a href="updateview.html"target="right">UPDATE VIEW </a>
+          <a href="checkview.html"target="right">CHECK FUNCTION </a>
+          <a href="nullview.html"target="right">NULL</a>
+
+          <a href="notnull.html"target="right">NOT NULL</a>
+          
+        <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+      </center>
+
+      <center>   <div class="dropdown">
+        <span class="rat">FUNCTIONS</span>
+        <div class="dropdown-content">
+          <a href="math.html"target="right">MATH FUNCTIONS</a>
+        
+          <a href="string.html"target="right">STRING FUNCTIOND</a>
+          <a href="date.html"target="right">DATE FUNCTIONS</a>
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+        
+  </div>
+      </div>
+      </center>
+
+      <center>   <div class="dropdown">
+        <span class="rat">OPERATIONS</span>
+        <div class="dropdown-content">
+          <a href="definition.html"target="right">DEFINITION</a>
+        
+          <a href="1nf.html"target="right">1NF </a>
+          <a href="2nf.html"target="right">2NF </a>
+          <a href="3nf.html"target="right">3NF </a>
+          
+          
+          <p class="d">mmmmmmmmmmmmmmmmmmmmm</p>
+  </div>
+      </div>
+    
+
+
+
+  </body>
+</html>
